@@ -23,7 +23,7 @@ public class Constants {
         "</body></html>";
     
     public static final String PROJECT_NAME = "PROJECT_NAME";
-    public static final String DEFAULT_PROJECT_SRC = "C:\\Users\\r.sorrentino\\Workspace\\git\\mediaset.salesforce\\src\\classes";
+    public static final String DEFAULT_PROJECT_SRC = "";
     
     public static final String ROOT_DIRECTORY = "ApexDocumentation";
     public static final String DEFAULT_HOME_CONTENTS = "<h1>" + PROJECT_NAME + "</h2>";
