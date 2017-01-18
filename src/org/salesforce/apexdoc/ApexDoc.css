@@ -8,9 +8,16 @@ body {
 
 /* the top page banner  */
 .topsection {
-    background-color: #003672;
+    background-color: #004857; /* rgb(0,65,73); */
     width: 100%;
     height: 110px;
+    color: white;
+}
+
+.footersection {
+    background-color: #004857; /* rgb(0,65,73); */
+    width: 100%;
+    height: 50px;
     color: white;
 }
 
@@ -33,7 +40,7 @@ body {
 
 /* the horizontal section headers that declares the Class name */
 .section-title {
-    background-color: #003672; /* rgb(155,203,236); */
+    background-color: #0082A4; /* rgb(0,130,164); */
     color: white;
     font-size: 100%;
     font-weight: bold;
@@ -86,7 +93,7 @@ body {
     font-family: Courier;
     font-size: .8em;
     font-weight: normal;
-    color: MediumBlue;
+    color: #004857;
 }
 
 .clsPropertyDescription {
@@ -104,7 +111,7 @@ body {
 }
 
 .classSignature a {
-    color: mediumblue;
+    color: #004857;
 }
 
 /* the description, author, date for the class */
@@ -116,7 +123,7 @@ body {
 /* signatures of methods and properties */
 .hostedSourceLink {
     text-decoration: initial;
-    color: mediumblue;
+    color: #004857;
 }
 
 .hostedSourceLink:hover {
@@ -126,7 +133,7 @@ body {
 /* method table of contents related classes */
 .methodTOCEntry {
     font-size: .9em;
-    color: mediumblue;
+    color: #004857;
 }
 
 .methodTOCEntry:visited {
@@ -147,7 +154,7 @@ body {
     font-family: Courier;
     font-size: .8em;
     font-weight: normal;
-    color: MediumBlue;
+    color: #004857;
     text-indent: -15px;
     padding-left: 15px;
 }

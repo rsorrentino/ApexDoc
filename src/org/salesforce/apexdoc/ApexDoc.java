@@ -51,7 +51,7 @@ public class ApexDoc {
     // public main routine which is used by both command line invocation and
     // Eclipse PlugIn invocation
     public static void RunApexDoc(String[] args, IProgressMonitor monitor) {
-        String sourceDirectory = "";
+        String sourceDirectory = Constants.DEFAULT_PROJECT_SRC;
         String targetDirectory = "";
         String homefilepath = "";
         String authorfilepath = "";

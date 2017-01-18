@@ -2,7 +2,8 @@ package org.salesforce.apexdoc;
 
 public class Constants {
         
-    public static final String HEADER_OPEN = "<html><head>" + 
+    public static final String HEADER_OPEN = 
+    	"<html><head>" + 
         "<script type='text/javascript' src='https://code.jquery.com/jquery-1.11.1.js'></script>" +
         "<script type='text/javascript' src='CollapsibleList.js'></script>" +                                                                
         "<script type='text/javascript' src='ApexDoc.js'></script>" +                                                                
@@ -16,12 +17,16 @@ public class Constants {
         "</table>" +
         "</div>";
     
-    public static final String FOOTER = "</div></div></td></tr></table><hr/>" + 
-        "<center style='font-size:.8em;'><a href='http://github.com/SalesforceFoundation/ApexDoc' target='_blank'>Powered By ApexDoc</a>" + 
-        "</center></body></html>";
+    public static final String FOOTER = 
+    	"</div></div></td></tr></table><hr/>" + 
+        "<div class='footersection'></div>" + 
+        "</body></html>";
+    
+    public static final String PROJECT_NAME = "PROJECT_NAME";
+    public static final String DEFAULT_PROJECT_SRC = "C:\\Users\\r.sorrentino\\Workspace\\git\\mediaset.salesforce\\src\\classes";
     
     public static final String ROOT_DIRECTORY = "ApexDocumentation";
-    public static final String DEFAULT_HOME_CONTENTS = "<h1>Project Home</h2>";
+    public static final String DEFAULT_HOME_CONTENTS = "<h1>" + PROJECT_NAME + "</h2>";
     public static final String PROJECT_DETAIL = 
         "<div class='topsection'>" +
         "<table>" +
@@ -29,9 +34,7 @@ public class Constants {
         "<img src='apex_doc_logo.png' style='border:1px solid #000;'/>" +
         "</td>" +
         "<td>" +                
-        "<h2 style='margin:0px;'>Project Demo</h2>" +
-        "Check out the gitHub project at:<br/>" + 
-        "<a href='http://github.com/SalesforceFoundation/ApexDoc'>http://github.com/SalesforceFoundation/ApexDoc</a><br/>";
+        "<h2 style='margin:0px;'>" + PROJECT_NAME + "</h2><br/>";
 
     public static String getHeader(String projectDetail) {
         String header;
